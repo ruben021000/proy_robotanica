@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Robotánica</title>
+
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css"/>
+        <script src="https://cdn.tailwindcss.com"></script>
+    
+        <script type="module" src="src/js/adapter.js"></script>
+        <link href="/dist/output.css" rel="stylesheet">
+        <link rel="stylesheet" href="./src/acercade.css">
+        <link rel="stylesheet" href="./src/menu.css">
+    </head>
+
+
+<body>
+
+<div id="top"></div>
+<section class="LandingPage" id="inicio">
+
+    <!--------------------------------- ENCABEZADO ------------------------------------->
+    <header style="position: fixed; width: 100%; z-index: 1"> <!-- style="position: fixed; width: 100%" -->
+        <nav class="negro flex h-16">
+            <div class="imagen_header">
+                <a href="index.html"><img src="./src/img/Logo.png" /></a>
+            </div>
+    
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" >
+                <div class="flex h-16 items-center justify-center items-center " >
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                        <a href="index.html" class="menu2 text-gray-300 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Inicio</a>
+                        <a href="informacion.html" class="menu2 text-gray-300 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Información</a>
+                        <a href="contactanos.html" class="menu2 text-gray-300 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contacto</a>
+                        <a href="acercade.html" class="menu1 text-white rounded-md px-3 py-2 text-sm font-medium">Acerca de</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="login_header">
+                <a href="login.html"><img src="./src/img/persona.png" /></a>
+            </div>
+        </nav>
+    </header>
+    <!---------------------------------------------------------------------------------->
+
+    <!-------------------------------- ACERCA DE --------------------------------------->
+    <div class="acercade">
+        <h4 class="titulo">MIEMBROS DEL GRUPO</h4>
+        <h4 class="subtirulo">Programadores Back-end</h4>
+
+        <div class="flex items-center justify-around items-center pt-10">
+            <div class="tarjeta card w-80">
+                <div class="front duo">
+                    <figure>
+                        <img src="./src/img/hombre.svg" class="imagenes" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title titulo_card">Daniel Benavides Belmonte</h2>
+                        <p class="texto_card">Diseñadora Web.</p>
+                    </div>
+                </div>
+
+                <div class="back duo">
+                    <div class="card-body items-center text-center">
+                        <h2 class="titulo_card_atras">Daniel Benavides Belmonte</h2>
+                        <p  class="texto_card">
+                            Basicamente, lo arreglo todo. <br>
+                            Además del desarollo del back-end del servidor, como scrum master me encargo de que todos trabajemos lo mejor posible.
+                            Pero mi trabajo diario es poner la música, un poquito para ambientar.
+                        </p>
+                        <div class="flex items-center justify-around">
+                            <a href=""><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z"/></svg></a>
+                            <a href=""><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z"/></svg></a>
+                            <a href="https://github.com/DanielBBHub"><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta card w-80">
+                <div class="front duo">
+                    <figure>
+                        <img src="./src/img/hombre2.svg" class="imagenes" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title titulo_card">Carlos Ipiens Quintanar</h2>
+                        <p class="texto_card">Diseñadora Web.</p>
+                    </div>
+                </div>
+
+                <div class="back duo">
+                    <div class="card-body items-center text-center">
+                        <h2 class="titulo_card_atras tamaño">Carlos Ipiens Quintanar</h2>
+                        <p  class="texto_card">
+                            Como desarrollador de back-end me encargo, junto a Dani de hacer viable el servidor.
+                            Como nos gusta mucho comunicarnos, nos encargamos de comunicar la web con el robot.
+                            Pero mi principal tarea es hacer las comidas en las reuniones.
+                        </p>
+                        <div class="flex items-center justify-around">
+                            <a href="https://www.linkedin.com/in/carlos-ipi%C3%A9ns-quintanar-509252210/"><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z"/></svg></a>
+                            <a href=""><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z"/></svg></a>
+                            <a href="https://github.com/cipiqui"><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta card w-80">
+                <div class="front duo">
+                    <figure>
+                        <img src="./src/img/hombre.svg" class="imagenes" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title titulo_card">Rubén Marin Samper</h2>
+                        <p class="texto_card">Diseñadora Web.</p>
+                    </div>
+                </div>
+
+                <div class="back duo">
+                    <div class="card-body items-center text-center">
+                        <h2 class="titulo_card_atras tamaño">Rubén Marin Samper</h2>
+                        <p  class="texto_card">
+                            Basicamente me encargo de intentar que el robot funcione para así poder recoger la mayor cantidad de datos,
+                            aunque a veces para conseguirlo hace falta pegarnos con él.
+                            Aunque en verdad, las papas son mi pasión.
+                        </p>
+                        <div class="flex items-center justify-around">
+                            <a href=""><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z"/></svg></a>
+                            <a href=""><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z"/></svg></a>
+                            <a href="https://github.com/ruben021000"><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <div class="linea"></div>
+        <h4 class="subtirulo">Programadores Front-End</h4>
+
+        <div class="flex items-center justify-around items-center pt-10">
+            <div class="tarjeta card w-80">
+                <div class="front duo">
+                    <figure>
+                        <img src="./src/img/mujer.svg" class="imagenes" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title titulo_card">Alba Oliver Navarro</h2>
+                        <p class="texto_card">Diseñadora Web.</p>
+                    </div>
+                </div>
+
+                <div class="back duo">
+                    <div class="card-body items-center text-center">
+                        <h2 class="titulo_card_atras tamaño">Alba Oliver Navarro</h2>
+                        <p  class="texto_card">
+                            Soy la diseñadora web de la StartUp Robotánica. Mi principal trabajo es hacer que veas la información que te interesa de la manera más bonita y comoda.
+                            Además, preparo el café de las reuniones.
+                        </p>
+                        <div class="flex items-center justify-around">
+                            <a href="https://www.linkedin.com/in/alba-oliver-navarro-841819211/"><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z"/></svg></a>
+                            <a href=""><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z"/></svg></a>
+                            <a href="https://github.com/aolinav"><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta card w-80">
+                <div class="front duo">
+                    <figure>
+                        <img src="./src/img/hombre.svg" class="imagenes" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title titulo_card">Joan Costa Escriva</h2>
+                        <p class="texto_card">Diseñadora Web.</p>
+                    </div>
+                </div>
+
+                <div class="back duo">
+                    <div class="card-body items-center text-center">
+                        <h2 class="titulo_card_atras tamaño">Joan Costa Escriva</h2>
+                        <p  class="texto_card">
+                            Si lo puedes pensar, puedo crearlo.
+                            Mi trabajo principal es el desarrollo de la app, para que puedas tener toda la información que quieras.
+                            Me encanta android, a ratos.
+                            Sobre todo yo propongo las comidas después de las reuniones.
+                        </p>
+                        <div class="flex items-center justify-around">
+                            <a href="https://www.linkedin.com/in/joancostaescriva/"><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z"/></svg></a>
+                            <a href=""><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z"/></svg></a>
+                            <a href="https://github.com/Joacoses"><svg class="logos" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="linea"></div>
+
+        <div class="flex justify-center pt-3">
+            <img class="imagen" src="./src/img/rr.jpg" alt="">
+            <div class="contenedor">
+                <h4 class="subtitulo">Sobre Nosotros</h4>
+                <p class="texto">
+                    Hola, buenas. <br>
+                    Somos los creadores de Robotánica, un grupo de estudiantes entusiasmados por la programación, nos gusta desarrollar para aportar soluciones innovadoras a todo tipo de sectores.
+                    <br>
+                    Apostamos esta vez con Robotánica por la unión de la tecnología y la agricultura pudiendo no solo así mejorar los resultados sino también ayudar a realizar de una forma más cómoda y rápida tareas que hasta el momento habían resultado complejas.
+                </p>
+            </div>
+        </div>
+    <!---------------------------------------------------------------------------------->
+        <br><br>
+    <!--------------------------------- FOOTER ----------------------------------------->
+    <footer class="white footer px-10 py-4 border-t bg-base-100 text-base-content border-base-300">
+        <div class="items-center grid-flow-col">
+            <a href="index.html"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="fill-current"><path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path></svg></a>
+            <a href="acercade.html"><p>ROBOTÁNICA <br/>Proyecto UPV | Equipo 02</p></a>
+        </div>
+        <div class="md:place-self-center md:justify-self-end">
+            <div class="grid grid-flow-col gap-4">
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+            </div>
+        </div>
+    </footer>
+    <!---------------------------------------------------------------------------------->
+</section>
+</body>
+</html>
