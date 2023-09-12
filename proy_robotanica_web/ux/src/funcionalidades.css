@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+:root{
+    --negro: #141414;
+    --grisNegro: #2d2d2d;
+    --verdeOscuro: #475d39;
+    --verde: #7C9969;
+    --blanco: #ffffff;
+}
+
+.borde{
+    border: 1px solid red;
+}
+
+.streaming{
+    width: 350px;
+    height: 200px;
+}
+
+.titulo{
+    font-size: 56px;
+    text-align: center;
+    color: var(--verde);
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+
+.subtirulo{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    text-align: center;
+    color: var(--verdeOscuro);
+    text-transform: uppercase;
+
+}
+
+.informacion_usuario{
+    padding-top: 5rem ;
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.contenedor_izq{
+    width: 80%;
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+.contenedor_der{
+    width: 80%;
+    border-radius: 30px;
+    margin-right: 2em;
+    margin-left: 1em;
+
+}
+
+.subcontenedor_izquierda{
+    /*background: rgba(174, 174, 174, 0.3);*/
+    border: 1px solid var(--verdeOscuro);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subcontenedor_derecha{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen_camara{
+    width: 100%;
+    border: 1px solid red;
+}
+
+.escaneo{
+    width: 400px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.escaneo .imagen{
+    width: 15em;
+}
+
+.camara{
+    width: 400px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: 1em 0;
+}
+
+.flecha_arriba{
+    background: white;
+    border-radius: 50%;
+    transform: rotate(180deg);
+    cursor: pointer;
+    margin: -1em 1em;
+}
+
+.flecha_derecha{
+    cursor: pointer;
+    margin: 0 1em;
+    transform: rotate(90deg);
+}
+
+.flecha_izquierda{
+    margin: 0 1em;
+    cursor: pointer;
+    transform: rotate(-90deg);
+}
+
+.flecha_abajo{
+    cursor: pointer;
+    margin: -1em 1em;
+}
+
+.botones_mover{
+    margin: 0 1em;
+    background-color: var(--verdeOscuro);
+    border-radius: 50%;
+}
+
+.botonCTA {
+    background: white;
+    font-weight: bold;
+    border: 3px solid var(--verdeOscuro);
+    color: var(--verdeOscuro);
+    margin: 1em 0;
+}
+
+.botonCTA:hover{
+    background: white;
+    box-shadow: 0 0 6px #363636
+}
+
+.contenedor_escaneo{
+    border: 1px solid var(--verdeOscuro);
+    border-radius: 30px;
+    margin-bottom: 1.5em;
+}
+
+.contenedor_foto{
+    border: 1px solid var(--verdeOscuro);
+    border-radius: 30px;
+    margin-top: 1.5em;
+}
+
